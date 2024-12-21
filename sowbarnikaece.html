@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURE YOUR FEAR</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white(151, 135, 135);
+            color: #333;
+        }
+        header {
+            background-color: darkcyan;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: rgb(53, 3, 3);
+            text-decoration: none;
+        }
+        .container {
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            colour: red;
+        }
+        .section {
+            margin: 50px 0;
+        }
+        .medicine-item {
+            background-color: grey;
+            border: 1px solid rgb(59, 4, 4);
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .medicine-item img {
+            max-width: 300px;
+            margin-right: 10px;
+            float: center;
+        }
+        footer {
+            background-color: darkcyan ;
+            color: rgb(99, 24, 24);
+            text-align: center;
+            padding: 10px;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid rgb(82, 13, 13);
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #be0707;
+            color: rgb(18, 142, 133);
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <header>
+        <h1>CURE YOUR FEAR</h1>
+        <p>Your Trusted Medicine and Healthcare Supplier</p>
+        <nav>
+            <ul>
+                <li><a href="#upload">Upload</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="upload" class="container section">
+        <h2>Upload Your Problem</h2>
+        <form>
+            <label for="problem">Describe Your Problem:</label>
+            <textarea id="problem" name="problem" rows="4" required></textarea>
+
+            <label for="Upload your prescription">Upload your prescription:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+
+            <button type="submit">Find Best Medicine</button>
+        </form>
+    </section>
+
+    <section id="categories" class="container section">
+        <h2>Medicines and Categories</h2>
+        <h3>For Children (100mg - 250mg)</h3>
+        <div class="medicine-item">
+            <img src="https://www.stelonbiotech.com/wp-content/uploads/2022/04/PYREMUST-650-TAB.jpg" alt="Paracetamol">
+            <h4>Paracetamol (Children )</h4>
+            <p><strong>Price:</strong> $3</p>
+            <p><strong>By DR.Wikki madhesh MBBS,MD CCEBDM Diabetology</strong></p>
+            <button>Add to Cart</button>
+        </div>
+        <h3>For Children (100mg - 250mg)</h3>
+        <div class="medicine-item">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/12/365832512/EA/NW/AQ/188035340/cetirizine-tablet-ip-500x500.jpg" alt="cetirizine">
+            <h4>cetirizine (Children )</h4>
+            <p><strong>Price:</strong> $3</p>
+            <p><strong>By DR.Arprit sharma MBBS,MD CCEBDM Diabetolgy</strong></p>
+            <button>Add to Cart</button>
+        </div>
+        <h3>For Adults (500mg - 1000mg)</h3>
+        <div class="medicine-item">
+            <img src="https://www.stelonbiotech.com/wp-content/uploads/2022/04/PYREMUST-650-TAB.jpg" alt="Paracetamol">
+            <h4>Paracetamol (Adult )</h4>
+            <p><strong>Price:</strong> $5</p>
+            <p><strong>By DR.Wikki madhesh MBBS,MD CCEBDM Diabetolgy</strong> </p>
+            <button>Add to Cart</button>
+        </div>
+        <h3>For Adults (500mg - 1000mg)</h3>
+        <div class="medicine-item">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/12/365832512/EA/NW/AQ/188035340/cetirizine-tablet-ip-500x500.jpg" alt="cetirizine">
+            <h4>cetirizine (Adult )</h4>
+            <p><strong>Price:</strong> $5</p>
+            <p><strong>By DR.Arprit sharma MBBS,MD CCEBDM Diabetolgy</strong></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <h3>For Older Persons (300mg - 600mg)</h3>
+        <div class="medicine-item">
+            <img src="https://www.stelonbiotech.com/wp-content/uploads/2022/04/PYREMUST-650-TAB.jpg" alt="Paracetamol">
+            <h4>Paracetamol (older persons)</h4>
+            <p><strong>Price:</strong> $4</p>
+            <p><strong>By DR.Wikki madhesh MBBS,MD CCEBDM Diabetolgy</strong> </p>
+            <button>Add to Cart</button>
+        </div> <h3>For Older Persons (300mg - 600mg)</h3>
+        <div class="medicine-item">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/12/365832512/EA/NW/AQ/188035340/cetirizine-tablet-ip-500x500.jpg" alt="cetirizine">
+            <h4>cetirizine (older persons)</h4>
+            <p><strong>Price:</strong> $4</p>
+            <p><strong>By DR.Arprit sharma MBBS,MD CCEBDM Diabetolgy</strong></p>
+            <button>Add to Cart</button>
+        </div>
+
+
+
+    </section>
+
+    <section id="offers" class="container section">
+        <h2>Special Offers and Discounts</h2>
+        <p>Get exclusive discounts on highly selling medicines and healthcare products.</p>
+        <p>Grab 20% offer for first order of yours.</p>
+    </section>
+
+    <section id="contact" class="container section">
+        <h2>Contact Us</h2>
+        <p><strong>Emergency Helpline:</strong>8248074343</p>
+        <p><strong>Email:</strong> support@cureyourfear.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CURE YOUR FEAR. All rights reserved.</p>
+    </footer>
+</body>
+</html>
